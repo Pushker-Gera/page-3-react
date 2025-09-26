@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  padding: 0%;
+  list-style-type: none;
+  margin: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: -12px;
+  margin-right: -12px;
+  gap: 20px;
+}
+
+.col-12 {
+  width: 100%;
+  padding: 12px;
+}
+
+.name {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  size: 20px;
+  font-weight: 500;
+  line-height: 124%;
+  letter-spacing: 0%;
+}
+
+.designation {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  size: 16px;
+  color: gray;
+  line-height: 151%;
+  letter-spacing: 0%;
+}
+
+.icon-box-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: absolute;
+  right: -41px;
+  top: 40%;
+  transform: translateY(-50%);
+  gap: 4px;
+}
+
+.relative {
+  position: relative;
+}
+
+.container-2 {
+  right: -41px;
+  top: 37%;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  transition: all 200ms linear;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.icon-box:hover {
+  background-color: #FF5300;
+}
+
+.card:hover .icon-box-container {
+  right: 0;
+  transition: all 200ms linear;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.icon-box:hover svg path {
+  fill: white;
+}
+
+.card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @media (min-width:576px) {
+  .col-sm-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width:768px) {
+  .col-md-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width:992px) {
+  .col-lg-3 {
+    width: 25%;
+  }
+} */
